@@ -23,6 +23,19 @@
 ## Code Book
 ### Transformations to Clean Up the Data
 
+The run_analysis.R script performs the following steps to clean up the data:
+
+1. Step 1: Merge the train and test data into one data set
+  1) Step 1-1: read in the "features.txt" to extract the variable names, and in the meantime, extract the locations for the names that contains "mean" and "std"
+  2) Step 1-2: extract data from the "test" fold into "df1" data set
+  3) Step 1-3: extract data from the "train" fold into "df2" data set
+  4) Step 1-4: merge the "df1" and "df2" data sets into one "df3" data set
+2. Step 2: Select the columns with mean and standard deviation for each measurement, and change the column-selected data set into a tbl object "data"
+3. Step 3: Rename the activities as descriptive names, "data2" is the activity-renamed tbl object
+4. Step 4: Rename the variables as descriptive variable names
+5. Step 5: Create a tidy data set "tidy", which summarize the mean of each variable for each activity and each subject. 
+
+In the end, output the tidy data set as a txt file "tidy.txt".
 
 ### The Variables
 * Subject: nominal variable with the ID for each subject who performed the activity, ranging from 1 to 30. 
