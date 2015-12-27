@@ -34,8 +34,8 @@
   - std(): Standard deviation
   - meanFreq(): Weighted average of the frequency components to obtain a mean frequency
 
-with 
- 
+  with
+
   - tBodyAcc-X/Y/Z
   - tGravityAcc-X/Y/Z
   - tBodyAccJerk-X/Y/Z
