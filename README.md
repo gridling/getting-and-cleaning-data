@@ -20,7 +20,8 @@ The goal is to combine the two data groups "train" and "test", to extract the va
 ## What Does The R Script Do?
 There were 30 subjects in this smartphone experiment. The collected data were ramdomly seperated into two subsets: 30% as "test data", and 70% as "train data". Six activities were requested to perform by each subjects: walking, walking upstairs, walking downstairs, sitting, standing, and laying. Therefore, there were a total of 30 x 6 = 180 kinds of subject*activity combinations. As for the variables, there were multiple (namely, 561) variables in the raw data. Only the variables regarding to "mean" and "standard deviation" were extracted, and then summarized. 
 
-The run_analysis.R script is to perform the following steps"
+The run_analysis.R script is to perform the following steps:
+
 1. Step 1: Merge the train and test data into one "df3" data set.
 2. Step 2: Extracts only the measurements on the mean and standard deviation for each measurement. Change the column-extracted data set into a tbl object "data".
 3. Step 3: Uses descriptive activity names to name the activities in the data set. "data2" is the activity-renamed tbl object.
