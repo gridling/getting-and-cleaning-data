@@ -26,4 +26,4 @@ The run_analysis.R script is to perform the following steps:
 2. Step 2: Extracts only the measurements on the mean and standard deviation for each measurement. Change the column-extracted data set into a tbl object "data".
 3. Step 3: Uses descriptive activity names to name the activities in the data set. "data2" is the activity-renamed tbl object.
 4. Step 4: Rename the variables as descriptive variable names.
-5. Step 5: create a tidy data set "tidy" which summarize the mean of each variable for each activity and each subject. In the end, output the tidy data set as a txt file "tidy.txt".
+5. Step 5: Create a tidy data set "tidy" which summarize the mean of each variable for each activity and each subject. In the end, output the tidy data set as a txt file "tidy.txt".
